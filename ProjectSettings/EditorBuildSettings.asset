@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Apartment.unity
-    guid: 1e91c061a15fe314ca20930e547cb312
+    path: Assets/Scenes/Menu.unity
+    guid: 0a8e55c5150cc91489e3157ad3bcb779
   - enabled: 1
     path: Assets/Scenes/Lets Go.unity
     guid: 1683336e2abd7f74094b53d9b476e68c
@@ -18,8 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Warehouse.unity
     guid: 455c5faecbee2eb489e17d70c070ac2a
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 0a8e55c5150cc91489e3157ad3bcb779
+    path: Assets/Scenes/Apartment.unity
+    guid: 1e91c061a15fe314ca20930e547cb312
   - enabled: 1
     path: Assets/Scenes/School.unity
     guid: 7a0cca06c71a0714e9a80e55403945a2
