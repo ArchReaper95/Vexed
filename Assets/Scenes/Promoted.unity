@@ -1836,6 +1836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e42159bd8e6dc2408ed44ebab6291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  narrator: {fileID: 0}
   nextClip: {fileID: 8300000, guid: 93cc69c2336b04e489eac10a5aeae779, type: 3}
 --- !u!4 &769898216
 Transform:
@@ -5692,7 +5693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce7099f0f650804e996ef402eae243b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Do work
+  interactionText: I've Climbed Enough
   sceneToLoad: Apartment(Work Track)
 --- !u!23 &2008059305
 MeshRenderer:

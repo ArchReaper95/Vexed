@@ -338,10 +338,12 @@
     <Compile Include="Assets\Code\Cleaner.cs" />
     <Compile Include="Assets\Code\Interaction.cs" />
     <Compile Include="Assets\Code\InteractionRay.cs" />
+    <Compile Include="Assets\Code\LetsGoManager.cs" />
     <Compile Include="Assets\Code\LevelJumper.cs" />
     <Compile Include="Assets\Code\LightSwitch.cs" />
     <Compile Include="Assets\Code\NarratorAudio.cs" />
     <Compile Include="Assets\Code\Preserve.cs" />
+    <Compile Include="Assets\Code\SchoolTransitions.cs" />
     <Compile Include="Assets\Code\Spawn.cs" />
     <Compile Include="Assets\Code\TelephoneJumper.cs" />
     <Compile Include="Assets\Code\WorkLoop.cs" />

@@ -7,7 +7,7 @@ public class Cleaner : MonoBehaviour {
     void Awake()
     {
 		GameObject character = GameObject.Find("Character");
-        GameObject workLoop = GameObject.Find("workLoopTracker");
+        GameObject workLoop = GameObject.Find("WorkLoopTracker");
         Destroy(character);
         Destroy(workLoop);
     }
