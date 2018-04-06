@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44479424, g: 0.49433935, b: 0.5735431, a: 1}
+  m_IndirectSpecularColor: {r: 0.44479415, g: 0.4943391, b: 0.5735429, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 147320909}
   - component: {fileID: 147320908}
   - component: {fileID: 147320907}
+  - component: {fileID: 147320911}
   - component: {fileID: 147320906}
   m_Layer: 0
   m_Name: Sphere
@@ -224,11 +225,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 147320905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce7099f0f650804e996ef402eae243b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a176a43193cb734793acb2e1fc87222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Take the Throne
-  sceneToLoad: Menu
+  narrator: {fileID: 0}
+  narratorVoice: {fileID: 0}
+  clip1: {fileID: 8300000, guid: f62a44cb9c3c6744da3dba8f9eb835c6, type: 3}
+  clip2: {fileID: 0}
+  clip3: {fileID: 0}
 --- !u!23 &147320907
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -295,6 +299,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &147320911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 147320905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f470a97bf0d4abbe45cb46fc0077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: 
+  narrator: {fileID: 0}
+  narratorVoice: {fileID: 0}
+  clip1: {fileID: 8300000, guid: 7052401b4e49b914b92aef89dcd9cde5, type: 3}
+  sceneToLoad: Menu
 --- !u!1 &186201763
 GameObject:
   m_ObjectHideFlags: 0

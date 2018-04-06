@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -155,8 +155,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -235,12 +235,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -314,12 +314,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -465,8 +465,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1133,12 +1133,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -1212,12 +1212,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -1783,8 +1783,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1837,7 +1837,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   narrator: {fileID: 0}
-  nextClip: {fileID: 8300000, guid: 93cc69c2336b04e489eac10a5aeae779, type: 3}
+  narratorVoice: {fileID: 0}
+  tracker: {fileID: 0}
+  clip1: {fileID: 0}
+  clip2: {fileID: 0}
+  clip3: {fileID: 0}
 --- !u!4 &769898216
 Transform:
   m_ObjectHideFlags: 0
@@ -1893,8 +1897,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -3900,12 +3904,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -4543,8 +4547,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -5115,12 +5119,12 @@ Prefab:
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Range
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 108731395457060568, guid: a8c8c5c289a86494f85e6abb6978195e,
         type: 2}
@@ -5402,8 +5406,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.95686275, g: 1, b: 0.98039216, a: 1}
-  m_Intensity: 0.5
-  m_Range: 500
+  m_Intensity: 0.3
+  m_Range: 100
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:

@@ -7,6 +7,8 @@ Assets/Scenes/Warehouse.unity
 Assets/Scenes/Apartment.unity
 Assets/Scenes/School.unity
 Assets/Scenes/Party.unity
+Assets/Scenes/Escape.unity
+Assets/Scenes/Promosted2.unity
 Assets/Scenes/Manager.unity
 Assets/Scenes/Apartment(Work Track).unity
 Assets/Scenes/Apartment(Work Track 2).unity
@@ -23,6 +25,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SchoolTransitions
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 7481472d4e57e8477d484d43a43b79dc Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.FirstPersonController
 fc2ca442ccc1cbd7a305026ed6de90ad Assembly-CSharp.dll:.LightSwitch
@@ -108,6 +111,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+7c91c91ab328bd52ddaca50af5aebfc6 Assembly-CSharp.dll:.LetsGoManager
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -190,7 +194,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DynamicShadowSettings
 602017ac837ce39de79e6b98478ee720 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleActivatorMenu
 82c6192ece8decc1abce9eae5bc44e95 Assembly-CSharp.dll:.HighlightNearestFace
-63f5417314ed17dbb4a005bba916dfb6 Assembly-CSharp.dll:.AudioSetter
+ed8f98ae1712ec551e135f4cfcc65452 Assembly-CSharp.dll:.AudioSetter
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -206,9 +210,13 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NarratorAudio
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
-bcfd5f09349cf5fb72aa83969584fbba Assembly-CSharp.dll:.WorkLoop
+0a2fc00e20e48154101975f0e11c3db8 Assembly-CSharp.dll:.WorkLoop
 32dcc1dca94294515dfea07e896e1a84 Assembly-CSharp.dll:ProBuilder2.Examples.RuntimeEdit
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cleaner
 a37a39e30dea43d56df418050705e7f7 Assembly-CSharp.dll:.LevelJumper
 9c64cb1f1ec1e2d87074b3b239a7503a Assembly-CSharp.dll:.InteractionRay
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+d01b6219faeb11c808d9a54e1d25a4b8 Assembly-CSharp.dll:.WarehouseManager
+2748d69183238d9f852e509bd7406c75 Assembly-CSharp.dll:.EscapeManager
+9cf424e58fe96f0d84152cbebdf6fc84 Assembly-CSharp.dll:.GameEnder
+2748d69183238d9f852e509bd7406c75 Assembly-CSharp.dll:.SchoolManager

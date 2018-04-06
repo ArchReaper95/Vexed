@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Lets Go.unity
+- path: Assets/Scenes/Promoted.unity
   isLoaded: 1
   isActive: 1

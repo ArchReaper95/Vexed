@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a176a43193cb734793acb2e1fc87222
+timeCreated: 1523027353
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - narrator: {instanceID: 0}
+  - narratorVoice: {instanceID: 0}
+  - clip1: {fileID: 8300000, guid: 5012397c5e3004f4a965ce553b5e1511, type: 3}
+  - clip2: {instanceID: 0}
+  - clip3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

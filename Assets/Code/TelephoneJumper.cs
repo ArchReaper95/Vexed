@@ -18,7 +18,7 @@ public class TelephoneJumper : Interaction {
     
     public override void doTriggerEvent()
     {
-        if (workLoop.GetComponent<WorkLoop>().getCounter() < 6)
+        if (workLoop.GetComponent<WorkLoop>().getCounter() < 3)
             SceneManager.LoadScene(sceneToLoad);
         else if (workLoop.GetComponent<WorkLoop>().getPromoted())
             SceneManager.LoadScene(sceneToLoad3);
